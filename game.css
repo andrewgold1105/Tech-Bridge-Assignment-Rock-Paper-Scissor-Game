@@ -17,12 +17,12 @@ main {
     width: 50%;
     margin: auto;
     box-shadow: 0 4px 4px 5px rgba(0,0,0,0.2);
-    height: 85vh;
+    
     margin-top: 20px;
     padding-top: 30px;
     border-radius: 10px;
     font-family: sans-serif;
-    padding-left: 10px;
+    
     padding: 10px;
     color: white;
 }
@@ -160,9 +160,12 @@ p {
     font-weight: 600;
 }
 
-@media sreeen and (max-width:500px) {
+@media sreeen and (max-width:480px) {
      main {
-        
+        display: block;
+        background-color: black;
+        width: 90%;
+        margin: 0 auto;
      }
 }
 
